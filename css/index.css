@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+
+.navxd{
+    width: 70%;
+    height: 70px;
+    
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+nav ul li a:hover {
+    color: #444;
+
+
+}
+
+
+ul {
+    list-style: disc;
+
+
+}
+
+
+
+.logo {
+    width: 30%;
+    height: 70px;
+}
+
+.logo p a {
+    color: black;
+    font-size: 40px;
+}
+
+
+
+.ancho {
+    width: 80%;
+    height: 70px;
+
+}
+
+.colorprenda {
+    color: black;
+    font-family: Arial;
+    font-size: small;
+}
+
+.titulo {
+    color: black;
+    font-family: Arial;
+    font-size: medium;
+}
+
+.fondodeprendas {
+    background-color: antiquewhite;
+    background-image: url("imagenes/tienda.jpg");
+    background-position: center
+}
+
+
+#navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+.pie {
+    background-color: bisque;
+    font-family: Arial;
+    font-size: medium;
+
+
+}
+
+
+.imagen1 {
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white
+}
+
+.imagen2 {
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white
+}
+
+.imagen3 {
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white
+}
+
+.imagen4 {
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white
+}
