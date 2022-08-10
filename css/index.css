@@ -1,12 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: antiquewhite;
+   background-color: antiquewhite;
+    
 }
 
 
+
+
 .navxd{
-    width: 70%;
+    width: 100%;
     height: 70px;
     
 }
@@ -21,16 +22,32 @@ a {
 
 
 
-nav ul li a:hover {
-    color: #444;
 
+#padreboton{
+    display: flex;
+    justify-content: center;
+     padding: 1.5em;  
+}
 
+.boton{
+    color:#444;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton:hover{
+    background-color: #444;
+    color: white;
+    transition: .3s;
 }
 
 
 ul {
     list-style: disc;
-
+    list-style: none;
+   
 
 }
 
@@ -46,10 +63,8 @@ ul {
     font-size: 40px;
 }
 
-
-
 .ancho {
-    width: 80%;
+    width: auto;
     height: 70px;
 
 }
@@ -61,65 +76,77 @@ ul {
 }
 
 .titulo {
+    display: flex;
+    justify-content: center;
     color: black;
     font-family: Arial;
-    font-size: medium;
+    font-size:larger;
+    
 }
 
-.fondodeprendas {
-    background-color: antiquewhite;
-    background-image: url("imagenes/tienda.jpg");
-    background-position: center
+
+nav ul li a {
+    color: #444;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav ul li a:hover {
+    background-color: #444;
+    color: white;
+    transition: all .3s;
+
+
+
 }
 
 
 #navegacion {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: center;
     justify-content: space-evenly;
-
-
-
-}
-
-.pie {
-    background-color: bisque;
-    font-family: Arial;
-    font-size: medium;
-
-
+    
 }
 
 
-.imagen1 {
-    height: 600px;
-    width: 400px;
+
+
+#proyectos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    width: 100%;
+     max-width: 1170px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 1.5em;  
+ }
+
+
+
+
+
+.proyecto__item{
+    height: 300px;
+    width: 200px;
     padding: 10px;
     margin: 10px;
     border: 1px solid white
 }
 
-.imagen2 {
-    height: 600px;
-    width: 400px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid white
+
+
+#form{
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    box-shadow: 0 0 20px 0 white;
+    text-align: center;
 }
 
-.imagen3 {
-    height: 600px;
-    width: 400px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid white
-}
 
-.imagen4 {
-    height: 600px;
-    width: 400px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid white
-}
