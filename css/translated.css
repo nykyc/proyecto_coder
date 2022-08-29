@@ -96,3 +96,15 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%; }
+
+.color-primary {
+  color: red; }
+
+.color-secondary {
+  color: blue; }
+
+.color-third {
+  color: orange; }
+
+#lorem {
+  color: red; }

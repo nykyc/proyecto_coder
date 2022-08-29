@@ -138,3 +138,30 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+
+$color_primary: red;
+$color_secondary: blue;
+$color-third: orange;
+
+$colores: (primary: red, secondary: blue, third: orange);
+
+@each $nombre, $color in $colores{
+    .color-#{$nombre}{
+        color:$color
+    }
+}
+
+
+#lorem{
+    color: map-get($colores, primary);
+}
+
+@mixin flex($dir, $jc, $fr, $ai, $gap){
+    display: flex;
+    flex-flow: $dir $fr;
+    justify-content:  $jc;
+    align-items: $ai;
+    gap: $gap;
+}
+
