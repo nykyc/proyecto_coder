@@ -5,7 +5,12 @@
     <title>Contacto Cheko</title>
     <link rel="stylesheet" href=".//css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/index.css">
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <!--FONT AWESOME-->
     <script src="https://kit.fontawesome.com/5d416dc25b.js" crossorigin="anonymous"></script>
+    <!--ANIMACIONES-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <meta name="description=" content="Cheko provee una variedad de indumentaria moderna y deportiva para cualquier persona. A su vez, está muy activo en lanzamientos de nuevas prendas">
     <meta name="keywords" content="Tienda de ropa Buenos Aires, indumentaria masculina, indumentaria femenina, indumentaria deportiva">
 </head>
@@ -26,91 +31,58 @@
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
-            <article id="formpadre">
-                <section id="form">
-                    <h1>Te contactamos</h1>
-                    <form method="post">
-                        <input type="text" name="nombre" id="" required placeholder="Nombre"><br>
-                        <input type="text" name="apellido" id=s" required placeholder="Apellido"><br>
-                        <input type="text" name="email" id="" required placeholder="Email"><br>
-                        <p>Dejanos tu comentario sobre nosotros:</p>
-                        <textarea></textarea>
-                        <br>
-                        <input type="button" value="enviar">
-                        <input type="reset" value="reset">
 
+            <div class="content">
+                <h1 class="titulo-form">TE CONTACTAMOS</h1>
+                <div class="contact-padre animate__animated animate__bounceInUp">
+                    <div class="contact-form">
+                        
+                        <form action="">
+                        <p>
+                            <label>Nombre</label>
+                            <input type="text" name="nombre" id="nombre">
+                        </p>
+                        <p>
+                            <label>Email</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>NºTeléfono</label>
+                            <input type="tel" name="phone">
+                        </p>
+                        <p>
+                            <label>Asunto</label>
+                            <input type="text" name="affair">
+                        </p>
+                        <p>
+                            <label class="block">Mensaje</label>
+                            <textarea name="message" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="submit">
+                                Enviar
 
-                    </form>
-
-
-
-
-                    <div id="contacto-info">
-                        <h4>Mas info</h4>
-                        <ul>
-                            <li><i class="fas fa-location-dot"></i> Ferrari 965</li>
-                            <li><i class="fas fa-phone"></i> 9999999999</li>
-                            <li><i class="fas fa-envelope"></i> cheko_store@gmail.com</li>
-                        </ul>
-
-                    </div>
-                </section>
-            </article>
-
-    </header>
-<footer>
-    <div class="container-fluid">
-
-        <div class="row p-5 pb-2 bg-dark text-white">
-
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h3">Cheko</p>
-                <p class="text-secondary">Buenos Aires, Arg.</p>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5 mb-3">Navegacion</p>
-                <div class="mb-2">
-                <a class="text-secondary text decoration-none" href="index.html">Inicio</a>
+                            </button>
+                        </p>
+                    
                 </div>
-                <div class="mb-2">
-                <a class="text-secondary text decoration-none" href="prendas.html">Productos</a>
-                </div>
-                <div class="mb-2">
-                <a class="text-secondary text decoration-none" href="ofertas.html">Ofertas</a>
-                </div>
-                <div class="mb-2">
-                <a class="text-secondary text decoration-none" href="sobrenosotros.html">Nosotros</a>
-                </div>
-                <div class="mb-2">
-                <a class="text-secondary text decoration-none" href="contacto.html">Contacto</a>
+            
+                <div class="contact-info">
+                <h4>Mas Informacion</h4>
+                <ul>
+                    <li><i class="fas fa-phone"></i>111 111 111 111</li>
+                    <li><i class="fas fa-envelope"></i>ChekoStore@hotmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i>Buenos aires, Argentina</li>
+                </ul>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, voluptates similique quisquam velit vitae necessitatibus itaque corrupti accusantium praesentium asperiores.
+                </p>
+                
+                <p>Cheko.com</p>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5 mb-3">Redes</p>
-                <div class="mb-2">
-                    <a class="text-secondary text decoration-none" href="#">Whatsapp</a>
-                </div>
-                <div class="mb-2">
-                    <a class="text-secondary text decoration-none" href="#">Instagram</a>
-                </div>
             </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5 mb-3">Contacto</p>
-                <div class="mb-2">
-                    <a class="text-secondary text decoration-none" href="#">Tel: 91134254634</a>
-                </div>
-            </div>
-                <div class="col-xs-12">
-                <p class="text-white text-center">Copyright - All rights reserved © 2022</p>
-                </div>
         </div>
 
-    </div>
-</footer>
-
-    
-
-<script src=".//js/bootstrap.min.js"></script>
-</body>
-
+</header>
 </html>
