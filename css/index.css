@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-header{
+.headerxdd{
     height: 100vh;
 }
 
@@ -135,7 +135,6 @@ nav ul li a:hover {
     color: black;
     cursor: pointer;
     display: none;
-    
 }
 
 ul.meme {
@@ -237,7 +236,7 @@ ul.meme {
 
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
@@ -270,7 +269,6 @@ footer {
 
 .contact-padre > * {
     padding: 1em;
-    padding-bottom: auto;
 }
 
 .contact-form{
