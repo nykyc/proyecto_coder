@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 100vh;
+}
 
 .navxd {
     width: 100%;
@@ -132,6 +135,7 @@ nav ul li a:hover {
     color: black;
     cursor: pointer;
     display: none;
+    
 }
 
 ul.meme {
@@ -230,19 +234,10 @@ ul.meme {
 
 
 
-#form {
-    width: 100%;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-    box-shadow: 0 0 20px 0 gray;
-    text-align: center;
-}
 
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -268,12 +263,14 @@ footer {
 
 .contact-padre{
     box-shadow: 0 0 20px 0 rgba(255, 255, 255);
+    
 
 }
 
 
 .contact-padre > * {
     padding: 1em;
+    padding-bottom: auto;
 }
 
 .contact-form{
@@ -362,3 +359,5 @@ footer {
     }
 
 }
+
+
