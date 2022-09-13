@@ -1,0 +1,40 @@
+Presupuesto Web
+
+Nombre: Cheko     
+Fecha: 5/9/2022
+Valido hasta: 5/10/2022
+
+
+
+Descripcion:
+
+1)  Diseño del site = $30.000 / Cantidad 1
+2)  Desarrollo del site = $50.000 / Cantidad 1
+3)  SEO Standar = $20.000 / Cantidad 1
+
+
+$1000 por hora
+
+Total: $75.000
+
+Según el acuerdo se deberá abonar el 50% de la cantidad establecida para empezar a realizar el servicio solicitado.
+
+
+Servicios Detallados:
+
+Diseño del Site
+- Diseño de los frameworks para definir la estructura del site.
+- Diseño de las páginas en versión Desktop y Mobile.
+
+Desarrollo del Site
+- Creación y desarrollo de las páginas diseñadas previamente.
+- Implementación de formulario en la página de Contacto
+
+
+SEO Basic
+- Implementar SEO a la página
+
+Herramientas de desarrollo: HTML, CSS
+
+
+

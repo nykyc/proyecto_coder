@@ -1,10 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-}
-
 .headerxdd{
     height: 100vh;
 }
@@ -235,11 +228,7 @@ ul.meme {
 
 
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+
 
 
 
@@ -358,4 +347,121 @@ footer {
 
 }
 
+.contenedorOfertas {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .tabla, .tabla--borde {
+    width: 33%;
+    height: 550px;
+    margin: auto;
+    border: 1px solid #343759;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px #343759;
+    padding: 75px;
+    text-align: center; 
+    flex-grow: 1;
+    color: #343759;
+  }
+  
+  .tabla > h2, .tabla--borde > h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+  }
+  
+  .tabla img, .tabla--borde img {
+    width: 64px;
+    margin-bottom: 35px;
+  }
+  
+  .tabla > h3, .tabla--borde > h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .tabla > p, .tabla--borde > p {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .boton {
+    display: inline-block;
+    width: 150px;
+    padding: 12px;
+    background: #59cf2b;
+    text-decoration: none;
+    color: #343759;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+  }
+  
+  .tabla:hover, .tabla--borde:hover {
+    background: #414bd1;
+    color: #f1f1f2;
+    transition: 0.5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 
+  #lorem{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Negrita;
+    bottom: auto;
+  }
+
+
+
+  @media screen and (max-width: 1000px) {
+    .tabla, .tabla--borde {
+    width: 45%;
+    max-width: none;
+    margin-bottom: 40px;
+    flex-grow: initial;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .tabla, .tabla--borde {
+      width: 45%;
+      padding: 30px;
+    }
+    .tabla > h2, .tabla--borde > h2 {
+      margin-top: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .tabla, .tabla--borde {
+      width: 85%;
+      padding: 20px;
+    }
+  }
+
+  .tabla, .tabla--borde {
+    border: 2px solid black
+  }
+
+
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
